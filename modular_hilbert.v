@@ -1,10 +1,7 @@
 (* (c) Copyright Christian Doczkal, Saarland University                   *)
 (* Distributed under the terms of the CeCILL-B license                    *)
-Require Import mathcomp.ssreflect.ssreflect.
-From mathcomp
-Require Import ssreflect ssrfun ssrbool eqtype ssrnat seq choice fintype finset bigop.
-
-Require Import edone base fset induced_sym.
+From mathcomp Require Import all_ssreflect.
+From CompDecModal.libs Require Import edone base fset induced_sym.
 
 Set Implicit Arguments.
 Unset Strict Implicit.

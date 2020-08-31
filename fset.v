@@ -1,10 +1,8 @@
 (* (c) Copyright Christian Doczkal, Saarland University                   *)
 (* Distributed under the terms of the CeCILL-B license                    *)
 Require Import Recdef.
-Require Import mathcomp.ssreflect.ssreflect.
 From mathcomp Require Import all_ssreflect.
-
-Require Import edone bcase base.
+From CompDecModal.libs Require Import edone bcase base.
 
 (********************************************************************************)
 (** * Finite Sets over choice types and countable types                        

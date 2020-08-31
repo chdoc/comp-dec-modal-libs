@@ -1,9 +1,7 @@
 (* (c) Copyright Christian Doczkal, Saarland University                   *)
 (* Distributed under the terms of the CeCILL-B license                    *)
-Require mathcomp.ssreflect.ssreflect.
 From mathcomp Require Import all_ssreflect.
-
-Require Import edone bcase fset base modular_hilbert.
+From CompDecModal.libs Require Import edone bcase fset base modular_hilbert.
 
 Set Implicit Arguments.
 Unset Strict Implicit.

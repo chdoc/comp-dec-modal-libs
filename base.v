@@ -1,11 +1,9 @@
 (* (c) Copyright Christian Doczkal, Saarland University                   *)
 (* Distributed under the terms of the CeCILL-B license                    *)
 
-Require Import mathcomp.ssreflect.ssreflect.
 From mathcomp Require Import all_ssreflect.
-
 Require Import Relations.
-Require Import edone bcase.
+From CompDecModal.libs Require Import edone bcase.
 
 Set Implicit Arguments.
 Unset Strict Implicit.
